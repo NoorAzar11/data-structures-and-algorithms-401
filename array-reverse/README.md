@@ -2,9 +2,7 @@
 
 
 
-![img](/home/noor/ASAC/data-structures-and-algorithms-401/array-reverse/code1.png)
-
-
+![img](code1.png)
 
 'use strict';
 
