@@ -15,3 +15,12 @@ function revArray(arr){
     	console.log(newArray);
 }
 revArray(array1);
+
+
+# Reverse an Array
+<!-- Description of the challenge -->
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+
+## Approach & Efficiency
