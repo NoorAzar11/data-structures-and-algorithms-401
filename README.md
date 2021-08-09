@@ -8,6 +8,6 @@
 
  |Code Challenge Name:|Code Challenge Link|
  |-----------------------------------------|
- |array-reverse       |[link](code1.png/REAME.md)|
+ |array-reverse       |[link](code1.png)|
  |array-insert-shift  |                          |
  |                    |                          |
