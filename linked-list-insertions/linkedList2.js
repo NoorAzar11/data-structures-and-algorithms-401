@@ -5,6 +5,7 @@ const Node = require('./node');
 class linkedlistinsertions{
     constructor(){
         this.head=null;
+        this.length=0;
     }
 
     append(value) {
@@ -54,6 +55,21 @@ class linkedlistinsertions{
           }
         }
         return ;
+      }
+
+
+      kFomEnd(k) {
+        let node = this.head;
+        let fleeting = this.length - 1 - k;
+        let idx = 0;
+        while (node) {
+          if (fleeting === idx) {
+            return node = node.value;
+          }
+          node = node.next;
+          idx++;
+        }
+        return;
       }
     
     }
