@@ -1,0 +1,16 @@
+{
+  "name": "linked-list-zip",
+  "version": "1.0.0",
+  "description": "-Challenge Setup & Execution Branch Name: linked-list-zip",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  }
+}

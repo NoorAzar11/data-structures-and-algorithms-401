@@ -1,0 +1,19 @@
+{
+  "name": "linked-list-kth-1",
+  "version": "1.0.0",
+  "description": "- k-th value from the end of a linked list.",
+  "main": "kth-from-end.js",
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
