@@ -15,3 +15,4 @@ You have access to the Node class and all the properties on the Linked List clas
 
 
 ![img](code88.png)
+![img](code9999.png)
