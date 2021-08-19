@@ -22,4 +22,5 @@ Creating a copy of the linked list, inserting elements at the head of the new li
 This solution takes O(n) time and uses O(n) space.
 
 ![img](code99.png) 
+![img](code999.png)  
 ![img](code999.png) 
