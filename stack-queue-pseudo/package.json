@@ -1,0 +1,17 @@
+{
+  "name": "stack-queue-pseudo",
+  "version": "1.0.0",
+  "description": "- Implement a Queue using two Stacks.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
