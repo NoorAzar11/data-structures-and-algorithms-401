@@ -13,17 +13,8 @@ describe('Testing stack', ()=> {
         let stack = new Stack();
         stack.enqueue(20)
         stack.enqueue(30)
-        expect(stack.this.newpop(val)).toEqual(30);
+        expect(stack.newpop(val)).toEqual(30);
     });
-
-    it('Testing empty queue',()=>{
-        let queue = new Queue();
-        expect(() => {
-          queue. SQempty();
-    
-        }).toThrow(Error);
-
-      });
 
 
     it('Testing pop', ()=> {
@@ -36,20 +27,28 @@ describe('Testing stack', ()=> {
         expect(stack.pop()).toEqual(6);
     });
 
-    it ('peek from empty stack return exception', () => {
+    it ('Testing peek empty stack', () => {
         let stack = new Stack();
-        expect (stack.peek()).toEqual('dequeueempty');
+        expect (stack.peek().val).toEqual('peek');
       });
 
-      it ('dequeue from empty stack return exception', () => {
+      it ('Testing dequeue  empty stack', () => {
         let stack = new Stack();
         expect (stack.dequeue()).toEqual('dequeueempty');
       });
 
-      it('Testing pop and peek ',()=>{
+      it('Testing pop  ',()=>{
         let stack = new Stack();
         expect(() => {
             stack.newpop();
+    
+        }).toThrow(Error);
+      });
+
+      it('Testing peek ',()=>{
+        let stack = new Stack();
+        expect(() => {
+            stack.newPush();
     
         }).toThrow(Error);
       });
