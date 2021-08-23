@@ -22,7 +22,7 @@ class AnimalShelter{
 
     dequeue(pref){
 
-        if(pref ==='car'){
+        if(pref ==='cat'){
 
             if(!this.prefCat.isEmpty()){
 

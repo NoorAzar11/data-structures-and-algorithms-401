@@ -20,6 +20,12 @@ describe ('Testing Animal Shelter' ,() => {
 
       });
 
+      it('Testing empty cat shelter',() => {
+        let animalShelter = new AnimalShelter();
+           expect(animalShelter.dequeue('cat')).toEqual('its gonna be a cat place hold empty');
+   
+         });
+
       it('Testing new animal type',() => {
         let animalShelter = new AnimalShelter();
         let animalnew = {type :'new', name : 'newnew'};
