@@ -7,7 +7,7 @@ describe('Testing queue', ()=> {
 
   it ('Testing enqueue queue', () => {
     let queue = new Queue();
-    queue.enqueue();
+    queue.enqueue(1000);
     expect(queue.dequeue().val).toEqual(this.storage);
   });
 
