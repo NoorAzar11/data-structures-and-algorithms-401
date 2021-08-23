@@ -1,0 +1,16 @@
+{
+  "name": "stack-queue-animal-shelter",
+  "version": "1.0.0",
+  "description": "### First-in, First out Animal Shelter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  }
+}
