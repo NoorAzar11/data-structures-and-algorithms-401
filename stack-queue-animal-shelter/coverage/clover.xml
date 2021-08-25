@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1629753023325" clover="3.2.0">
-  <project timestamp="1629753023326" name="All files">
-    <metrics statements="18" coveredstatements="15" conditionals="12" coveredconditionals="9" methods="3" coveredmethods="3" elements="33" coveredelements="27" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+<coverage generated="1629907153482" clover="3.2.0">
+  <project timestamp="1629907153482" name="All files">
+    <metrics statements="18" coveredstatements="14" conditionals="12" coveredconditionals="8" methods="3" coveredmethods="3" elements="33" coveredelements="25" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="AnimalShelter.js" path="/home/noor/ASAC/data-structures-and-algorithms-401/stack-queue-animal-shelter/AnimalShelter.js">
-      <metrics statements="18" coveredstatements="15" conditionals="12" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <metrics statements="18" coveredstatements="14" conditionals="12" coveredconditionals="8" methods="3" coveredmethods="3"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
-      <line num="8" count="6" type="stmt"/>
-      <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="2" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="13" count="0" type="stmt"/>
       <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="15" count="0" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
