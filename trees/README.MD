@@ -37,3 +37,4 @@ Returns: boolean indicating whether or not the value is in the tree at least onc
 ![img](15.2.png) 
 ![img](1516.png) 
 ![img](1616.png) 
+![img](17test.png) 

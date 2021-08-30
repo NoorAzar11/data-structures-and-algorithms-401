@@ -1,32 +1,31 @@
 'use strict';
 
 const { expect } = require('@jest/globals');
-const BinaryTree = require('../BinaryTree');
+const {BinaryTree} = require('../BinaryTree');
 const Node = require('../node');
 let tree = null;
 
 describe('Binary Tree', ()=>{
 
     beforeAll(()=> {
-        let one = new Node(1);
-        let two = new Node(2);
-        let three = new Node(3);
-        let four = new Node(4);
-        let five = new Node(5);
-        let six = new Node(6);
-        let seven = new Node(7);
-        let eight = new Node(8);
-        let nine = new Node(9);
+        let one = new Node(2);
+        let two = new Node(7);
+        let three = new Node(5);
+        let four = new Node(2);
+        let five = new Node(6);
+        let six = new Node(9);
+        let seven = new Node(5);
+        let eight = new Node(11);
+        let nine = new Node(4);
 
         one.left = two;
         one.right = three;
-        two.left = six;
-        six.right = seven;
-        seven.left = eight;
-        seven.right = nine;
-        three.left = four;
-        three.right = five;
-
+        two.left = four;
+        two.right = five
+        five.left = seven;
+        five.right = eight;
+        three.right = six;
+        six.left= nine;
         // create a tree and pass root to it
         tree = new BinaryTree(one);
     });
@@ -34,28 +33,29 @@ describe('Binary Tree', ()=>{
     it('constructor', ()=>{
         const newTree = new BinaryTree();
         expect(newTree.root).toBeNull();
-        expect(tree.root.value).toEqual(1);
+        expect(tree.root.value).toEqual(2);
     });
 
     it('preOrder', ()=> {
-        let expectedOutput = [1,2,6,7,8,9,3,4,5];
+        let expectedOutput = [  2, 7, 2, 6, 5,11, 5, 9, 4];
         let preOrder = tree.preOrder();
         console.log("preOrder output ---->", preOrder);
         expect(preOrder).toEqual(expectedOutput);
     });
 
     it('inOrder', ()=> {
-        let expectedOutput = [6, 8, 7, 9, 2, 1, 4, 3, 5];
+        let expectedOutput = [  2, 7, 5, 6, 11, 2, 5, 4, 9];
         let inOrder = tree.inOrder();
         console.log("inOrder output ---->", inOrder);
         expect(inOrder).toEqual(expectedOutput);
     });
 
     it('postOrder', ()=> {
-        let expectedOutput = [8, 9, 7, 6, 2, 4, 5, 3, 1];
+        let expectedOutput = [ 2, 5, 11, 6, 7,
+            4, 9,  5, 2];
         let postOrder = tree.postOrder();
         console.log("postOrder output ---->", postOrder);
         expect(postOrder).toEqual(expectedOutput);
     });
-
+ 
 });

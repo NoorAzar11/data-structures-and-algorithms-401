@@ -1,5 +1,5 @@
 'use strict';
-
+const Node= require('./node');
 
 
 class BinaryTree {
@@ -43,6 +43,38 @@ class BinaryTree {
         traverse(this.root);
         return result;
     }
+
+  
 }
 
-module.exports = BinaryTree;
+//root hold all tree
+//it will pushor  data 
+//first in first out 
+//Breadth-first search involves search through a tree one level at a time. 
+//We traverse through one entire level of children nodes first, before moving on to traverse through the grandchildren nodes//
+//find the shortest path
+//BFS use queue to track which node to visit next
+//it will always go from left to right)
+
+const breadthfirst=(root)=>{
+    const queueBreadth=[root];
+    let arr=[];
+    while(queueBreadth.length>0){
+        let curr=queueBreadth.shift();
+        //to give value to retrun value for every element 
+        console.log(curr.value)
+        arr.push(curr.value);
+        if(curr.left!==null){
+            queueBreadth.push(curr.left);
+        }
+        if(curr.right!==null){
+            queueBreadth.push(curr.right);
+        }
+    }
+    return arr;
+};
+
+
+
+
+module.exports = {BinaryTree,breadthfirst};

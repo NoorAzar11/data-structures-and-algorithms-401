@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630259087073" clover="3.2.0">
-  <project timestamp="1630259087073" name="All files">
-    <metrics statements="58" coveredstatements="51" conditionals="34" coveredconditionals="26" methods="12" coveredmethods="12" elements="104" coveredelements="89" complexity="0" loc="58" ncloc="58" packages="1" files="3" classes="3"/>
+<coverage generated="1630354531595" clover="3.2.0">
+  <project timestamp="1630354531595" name="All files">
+    <metrics statements="71" coveredstatements="64" conditionals="38" coveredconditionals="30" methods="13" coveredmethods="13" elements="122" coveredelements="107" complexity="0" loc="71" ncloc="71" packages="1" files="3" classes="3"/>
     <file name="BinarySearchTree.js" path="/home/noor/ASAC/data-structures-and-algorithms-401/trees/BinarySearchTree.js">
       <metrics statements="31" coveredstatements="24" conditionals="19" coveredconditionals="11" methods="4" coveredmethods="4"/>
       <line num="3" count="1" type="stmt"/>
@@ -37,7 +37,8 @@
       <line num="83" count="1" type="stmt"/>
     </file>
     <file name="BinaryTree.js" path="/home/noor/ASAC/data-structures-and-algorithms-401/trees/BinaryTree.js">
-      <metrics statements="23" coveredstatements="23" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
+      <metrics statements="36" coveredstatements="36" conditionals="17" coveredconditionals="17" methods="8" coveredmethods="8"/>
+      <line num="2" count="2" type="stmt"/>
       <line num="8" count="2" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
@@ -60,14 +61,26 @@
       <line num="41" count="9" type="stmt"/>
       <line num="43" count="1" type="stmt"/>
       <line num="44" count="1" type="stmt"/>
-      <line num="48" count="1" type="stmt"/>
+      <line num="59" count="2" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="9" type="stmt"/>
+      <line num="65" count="9" type="stmt"/>
+      <line num="66" count="9" type="stmt"/>
+      <line num="67" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="68" count="4" type="stmt"/>
+      <line num="70" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="71" count="4" type="stmt"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="80" count="2" type="stmt"/>
     </file>
     <file name="node.js" path="/home/noor/ASAC/data-structures-and-algorithms-401/trees/node.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="6" count="13" type="stmt"/>
-      <line num="7" count="13" type="stmt"/>
-      <line num="8" count="13" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
+      <line num="6" count="22" type="stmt"/>
+      <line num="7" count="22" type="stmt"/>
+      <line num="8" count="22" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
