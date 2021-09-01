@@ -1,0 +1,17 @@
+{
+  "name": "SumBinryTreeOdds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sumtree.js",
+  "dependencies": {
+    "jest": "^27.1.0",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
