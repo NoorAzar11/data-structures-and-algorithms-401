@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1630508342303" clover="3.2.0">
+  <project timestamp="1630508342303" name="All files">
+    <metrics statements="24" coveredstatements="21" conditionals="15" coveredconditionals="12" methods="4" coveredmethods="3" elements="43" coveredelements="36" complexity="0" loc="24" ncloc="24" packages="1" files="1" classes="1"/>
+    <file name="fizzbuzz.js" path="/home/noor/ASAC/data-structures-and-algorithms-401/tree-fizz-buzz/fizzbuzz.js">
+      <metrics statements="24" coveredstatements="21" conditionals="15" coveredconditionals="12" methods="4" coveredmethods="3"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="4" type="stmt"/>
+      <line num="27" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="33" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="2" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="37" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="38" count="2" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="45" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="4" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
