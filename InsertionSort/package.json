@@ -1,0 +1,17 @@
+{
+  "name": "InsertionSort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insertsort.js",
+  "dependencies": {
+    "jest": "^27.2.0",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
