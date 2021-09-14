@@ -1,0 +1,17 @@
+{
+  "name": "QuickSort",
+  "version": "1.0.0",
+  "description": "- QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.",
+  "main": "QuickSort.js",
+  "dependencies": {
+    "jest": "^27.2.0",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
