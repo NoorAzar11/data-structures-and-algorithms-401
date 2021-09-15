@@ -1,0 +1,16 @@
+{
+  "name": "MergeSort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MergeSort.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "supertest": "^6.1.6"
+  }
+}

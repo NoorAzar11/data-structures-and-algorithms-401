@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1631709220462" clover="3.2.0">
+  <project timestamp="1631709220462" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2" elements="21" coveredelements="21" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="MergeSort.js" path="/home/noor/ASAC/data-structures-and-algorithms-401/MergeSort/MergeSort.js">
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="22" count="11" type="stmt"/>
+      <line num="24" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="6" type="stmt"/>
+      <line num="28" count="5" type="stmt"/>
+      <line num="30" count="5" type="stmt"/>
+      <line num="33" count="5" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
