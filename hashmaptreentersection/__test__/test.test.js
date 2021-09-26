@@ -4,12 +4,17 @@
 
 const { BinaryTree, tree_intersection: treeintersection } = require('../hasmap')
 
+
+
 describe('Testing tree intersection ', () => {
+
+
 
     test('Testing intersection ', () => {
 
 
         const BT = new BinaryTree();
+
 
         BT.add(150);
         BT.add(100);
@@ -22,6 +27,9 @@ describe('Testing tree intersection ', () => {
         BT.add(350);
         BT.add(300);
         BT.add(500);
+
+
+
 
 
         const BT2 = new BinaryTree();
@@ -49,3 +57,28 @@ describe('Testing tree intersection ', () => {
 
     })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
