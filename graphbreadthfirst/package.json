@@ -1,0 +1,16 @@
+{
+  "name": "graphbreadthfirst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphfirst.js",
+  "scripts": {
+    "test": "jest --coverage --verbose" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.2.2",
+    "supertest": "^6.1.6"
+  }
+}
