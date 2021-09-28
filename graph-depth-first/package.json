@@ -1,0 +1,16 @@
+{
+  "name": "graph-depth-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "depth.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.2.3",
+    "supertest": "^6.1.6"
+  }
+}
